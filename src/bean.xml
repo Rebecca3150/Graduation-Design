@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+        http://www.springframework.org/schema/beans/spring-beans-4.2.xsd 
+        http://www.springframework.org/schema/context 
+        http://www.springframework.org/schema/context/spring-context-4.2.xsd">
+
+	<bean id="user" class="pro.action.User"></bean>
+	<bean id="project" class="pro.action.Project"></bean>
+	<bean id="team" class="pro.action.Team"></bean>
+	<bean id="group" class="pro.action.Group"></bean>
+	<bean id="log" class="pro.action.Log"></bean>
+	<bean id="plan" class="pro.action.Plan"></bean>
+	<bean id="task" class="pro.action.Task"></bean>
+	
+</beans>
